@@ -3,25 +3,17 @@ Raspberry Pico W reads the data from a temperature sensor and displays the infor
 
 # 📦Usage
 DS18B20    ->  Pico W
-
-VDD (Red)  ->  3.3V 
-
-GND (Black)->  GND
-
-Data (Yellow)-> GPIO 28 
-
-4.7kΩ resistor between VDD and Data
+- VDD (Red)  ->  3.3V 
+- GND (Black)->  GND
+- Data (Yellow)-> GPIO 28 
+- 4.7kΩ resistor between VDD and Data
 
 
 OLED       ->  Pico
-
-VCC        ->  3.3V
-
-GND        ->  GND
-
-SDA        ->  GPIO 8
-
-SCL        ->  GPIO 9
+- VCC        ->  3.3V
+- GND        ->  GND
+- SDA        ->  GPIO 8
+- SCL        ->  GPIO 9
 
 
 Install the following packages via the Arduino IDE
